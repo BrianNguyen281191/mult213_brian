@@ -30,12 +30,16 @@ header p {
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-    font-size: 0.9rem;
+    text-align: center; 
+    margin: 0 auto; 
+    background-color: #aaaaaa; 
+    color: white; 
+    padding: 5px; 
+    border-bottom: 2px solid #506c51; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    max-width: 400px; 
+    width: 70%; 
 }
 
 footer p {
@@ -80,35 +84,39 @@ button:hover {
 
 .card {
     background: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
     padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin: 20px auto;
+    max-width: 400px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    overflow: hidden;
 }
 
 .card img {
-    max-width: 100%;
+    max-width: 100%; 
     height: auto;
-    border-radius: 5px;
+    border-radius: 5px; 
     margin-bottom: 15px;
 }
 
 .card h2 {
-    font-size: 1.5rem;
-    color: #4CAF50;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .card h3 {
     font-size: 1.2rem;
-    color: #777;
-    margin-bottom: 10px;
+    color: #666;
+    margin-bottom: 15px;
 }
 
 .card p {
     font-size: 1rem;
-    color: #333;
+    color: #555;
+    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
