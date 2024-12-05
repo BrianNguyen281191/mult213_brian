@@ -9,10 +9,10 @@ const Header = (props) => {
 
 const Footer = (props) => {
     return (
-        <div>
+        <footer>
             <p>{props.message}</p>
             <p>Copyright © 2023 My Website. All rights reserved.</p>
-        </div>
+        </footer>
     );
 };
 
@@ -36,10 +36,10 @@ const TodoList = (props) => {
 
 const Card = (props) => {
     return (
-        <div>
+        <div className="card">
             <h2>{props.title}</h2>
             <h3>{props.subtitle}</h3>
-            <img src={props.image} alt="Image" />
+            <img src={props.image} alt="Card" />
             <p>{props.content}</p>
         </div>
     );
@@ -57,14 +57,16 @@ const App = () => {
                 ]}
             />
             <Card
-                title="My Card Title"
-                subtitle="My Card Subtitle"
-                image="https://example.com/my-image.jpg"
-                content="This is the content of my card."
+                title="Brian Nguyen"
+                subtitle="Student of Interactive Design and Technology (IDT)"
+                image="brian.jpg"
+                content="Hi, I'm Brian Nguyen, a dedicated student in Interactive Design and Technology. I enjoy creating interactive, user-friendly designs and applications."
             />
-            <Footer message="Contact me at contact@mywebsite.com" />
+            <Footer message="Contact me at nguyen6475@saskpolytech.ca" />
+
         </div>
     );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
